@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "flag": "random_adventurer_maps",
+      "condition": "supplementaries:flag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "random_adventurer_maps"
+    }
+  ],
+  "type": "supplementaries:adventurer_map",
+  "price_multiplier": 0.2,
+  "item": "minecraft:emerald",
+  "max_trades": 2,
+  "price_min": 6,
+  "price_max": 11,
+  "price_secondary": {
+    "id": "minecraft:compass",
+    "count": 1
+  },
+  "level": 2
+}

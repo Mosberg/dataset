@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/template_piston",
+  "textures": {
+    "platform": "supplementaries:block/laser_top_on",
+    "bottom": "supplementaries:block/laser_bottom",
+    "side": "supplementaries:block/laser_side_off"
+  }
+}

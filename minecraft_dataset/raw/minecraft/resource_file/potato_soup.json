@@ -1,0 +1,34 @@
+{
+  "containers": [
+    {
+      "filled": [
+        "inspirations:potato_soup"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": "BOWL"
+    }
+  ],
+  "equivalent_fluids": [
+    "inspirations:potato_soup"
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": "BOWL",
+    "item": "inspirations:potato_soup"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "inspirations"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "inspirations"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "use_texture_from": "inspirations:potato_soup"
+}

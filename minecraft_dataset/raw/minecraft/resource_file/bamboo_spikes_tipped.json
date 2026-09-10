@@ -1,0 +1,15 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "bamboo_spikes_tipped"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "bamboo_spikes_tipped"
+    }
+  ],
+  "type": "supplementaries:bamboo_spikes_tipped"
+}

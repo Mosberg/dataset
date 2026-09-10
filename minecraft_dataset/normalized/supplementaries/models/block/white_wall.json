@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "supplementaries:block/buntings/wall_bunting_white",
+		"particle": "supplementaries:block/buntings/wall_bunting_white"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 15.75],
+			"to": [16, 16, 15.75],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

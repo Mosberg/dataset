@@ -1,0 +1,32 @@
+{
+  "color": "#961d49",
+  "containers": [
+    {
+      "filled": [
+        "simplefarming:wine"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "minecraft:block/water_flow",
+  "food": {
+    "divider": 1,
+    "item": "simplefarming:wine"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "simplefarming"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "simplefarming"
+    }
+  ],
+
+  "still_texture": "minecraft:block/water_still",
+  "translation_key": "item.simplefarming.wine"
+}

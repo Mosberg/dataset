@@ -1,0 +1,13 @@
+{
+  "variants": [
+    {
+      "models": [
+        {
+          "model": "supplementaries:special_models/block/books/book_enchanted",
+          "color": "brown",
+          "has_glint": true
+        }
+      ]
+    }
+  ]
+}

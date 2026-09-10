@@ -1,0 +1,1055 @@
+{
+  "schema": "minecraft-dataset-structure-v1",
+  "source_root": "D:\\Projekter\\Minecraft\\Resources",
+  "output_root": "D:\\Projekter\\Minecraft\\Resources\\minecraft_dataset",
+  "counts": {
+    "total_files": 18157,
+    "texture": 3184,
+    "duplicates": 1174,
+    "blockstate": 1074,
+    "resource_file": 7202,
+    "language": 174,
+    "block_model": 3769,
+    "item_model": 1330,
+    "particle": 37,
+    "sound_definition": 205,
+    "atlas": 4,
+    "optifine_asset": 1,
+    "font": 2,
+    "pack_metadata": 1
+  },
+  "namespaces": {
+    "amendments": 2,
+    "create": 4861,
+    "dynamictrees": 2,
+    "emi": 1,
+    "farmersdelight": 924,
+    "ftbquests": 132,
+    "minecraft": 6729,
+    "placeableitems": 578,
+    "sophisticatedbackpacks": 212,
+    "supplementaries": 3539,
+    "vslab_compat": 3
+  },
+  "resource_types": {
+    "texture": 3184,
+    "blockstate": 1074,
+    "resource_file": 7202,
+    "language": 174,
+    "block_model": 3769,
+    "item_model": 1330,
+    "particle": 37,
+    "sound_definition": 205,
+    "atlas": 4,
+    "optifine_asset": 1,
+    "font": 2,
+    "pack_metadata": 1
+  },
+  "issues_sample": [
+    {
+      "path": "assets/amendments/textures/block/music_discs/supplementaries/pancake_disc.png",
+      "issue": "duplicate_content",
+      "sha256": "0acc24647aeffbdad7003eabee6406b53dd907f803cbb794a8d1f6a4c0e9b34a"
+    },
+    {
+      "path": "assets/create/blockstates/copycat_step.json",
+      "issue": "duplicate_content",
+      "sha256": "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
+    },
+    {
+      "path": "assets/create/blockstates/mysterious_cuckoo_clock.json",
+      "issue": "duplicate_content",
+      "sha256": "258f2a76237456a63453020524d5429996aa676e30a9dc1c4e338e8577586e33"
+    },
+    {
+      "path": "assets/create/blockstates/small_bogey.json",
+      "issue": "duplicate_content",
+      "sha256": "82306239139859b48dc90398894a0b51c73e78bf4aef37958d07de70e293d141"
+    },
+    {
+      "path": "assets/create/blockstates/stressometer.json",
+      "issue": "duplicate_content",
+      "sha256": "2bbf71441a58c04c269f5d2bc1ce8d2273941cd7225a1e100bdf807a8a25ef38"
+    },
+    {
+      "path": "assets/create/blockstates/water_wheel_structure.json",
+      "issue": "duplicate_content",
+      "sha256": "f1120fb70661b0d59ba305e83319f8ceb9a3019b94ce0daf1c9fbebb92d8fd40"
+    },
+    {
+      "path": "assets/create/flywheel/instance/cull/scrolling_transformed.glsl",
+      "issue": "duplicate_content",
+      "sha256": "c585c437eb7dc0b3794fec213cb303eae4c787c219843fe094c1596ec03d82b2"
+    },
+    {
+      "path": "assets/create/models/block/belt_casing/sideways_pulley.json",
+      "issue": "duplicate_content",
+      "sha256": "562bf7d9d2c762cd808eeb2227d375bf8e9a41c65db64f07dce659801a15ec79"
+    },
+    {
+      "path": "assets/create/models/block/belt_casing/sideways_start.json",
+      "issue": "duplicate_content",
+      "sha256": "562bf7d9d2c762cd808eeb2227d375bf8e9a41c65db64f07dce659801a15ec79"
+    },
+    {
+      "path": "assets/create/models/block/blaze_burner/blaze_rods.mtl",
+      "issue": "duplicate_content",
+      "sha256": "744673559c87ef8695eedba611f0da5f421f09da5734434ff43cf0a7b6e9ec9b"
+    },
+    {
+      "path": "assets/create/models/block/blue_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/bracket/shaft/ground.json",
+      "issue": "duplicate_content",
+      "sha256": "e6936e10f8be6d4725c5750c2a57da7f5676704362657f820d432c4cc71372a4"
+    },
+    {
+      "path": "assets/create/models/block/brown_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/cyan_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/gray_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/green_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass.json",
+      "issue": "duplicate_content",
+      "sha256": "f6992c32233ec829586d4042db6fd41b91972f6ac16daba49c98481b2ee0082f"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass_pane_noside.json",
+      "issue": "duplicate_content",
+      "sha256": "d73be84cf3a918d85087e9e0b473fba24f36eae518f6f8b8b2dfe5fa4c320e29"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass_pane_noside_alt.json",
+      "issue": "duplicate_content",
+      "sha256": "724670d6c0f1e0f5571a23f8c81401c0410e10cc9549f2f8916bc198f0b04a51"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass_pane_post.json",
+      "issue": "duplicate_content",
+      "sha256": "91ce1a0fcfccd108fd7c26e28441aa732040568cd0ce8da61addc0dc22575f68"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass_pane_side.json",
+      "issue": "duplicate_content",
+      "sha256": "04d6d7f72a1deff7094e71244a1d41209c376d20e8f98ddc41d3d089e8a73040"
+    },
+    {
+      "path": "assets/create/models/block/horizontal_framed_glass_pane_side_alt.json",
+      "issue": "duplicate_content",
+      "sha256": "ee82bedec613597c86a969b13f0785a5bd779033424a3584c329dc2a55545edd"
+    },
+    {
+      "path": "assets/create/models/block/light_blue_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/light_gray_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/lime_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/magenta_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/metal_girder_encased_shaft/block_bottom.json",
+      "issue": "duplicate_content",
+      "sha256": "d41592ca59d59b8bd7b9a37011e092d7f1d6ba36cd2df988e9a8e154c2a31267"
+    },
+    {
+      "path": "assets/create/models/block/metal_girder_encased_shaft/block_top.json",
+      "issue": "duplicate_content",
+      "sha256": "3c5c09039121a7e2dfaadeac97554574b2877ecbd4d5baa2c87af6d8453aa642"
+    },
+    {
+      "path": "assets/create/models/block/nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/peculiar_bell_ceiling.json",
+      "issue": "duplicate_content",
+      "sha256": "749b78b9fb9b3f551bf611a46e90c194149e3e2ac67f0901fd09bc8736c9c26d"
+    },
+    {
+      "path": "assets/create/models/block/peculiar_bell_double_wall.json",
+      "issue": "duplicate_content",
+      "sha256": "583cec7aaeeee9d3785bdbc9e0beba255ec7bc6a7ba1e04a19fbcd2dd8007677"
+    },
+    {
+      "path": "assets/create/models/block/peculiar_bell_floor.json",
+      "issue": "duplicate_content",
+      "sha256": "278e0c72d55e932d58ac7e235c202845763ec03ec664460f995644696c0a54ff"
+    },
+    {
+      "path": "assets/create/models/block/peculiar_bell_single_wall.json",
+      "issue": "duplicate_content",
+      "sha256": "57d9b0cbb7599f22f1183a9848c7091e3a30262b9d9bc6abca8349de6dc53029"
+    },
+    {
+      "path": "assets/create/models/block/pink_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/purple_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/red_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/track/bogey/bogey_drive_wheel_pin.mtl",
+      "issue": "duplicate_content",
+      "sha256": "c383efaa2fd3f07b945a075cf7c299e58d1f87007c0a52c8d9a0810591f3e9c2"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass.json",
+      "issue": "duplicate_content",
+      "sha256": "f6992c32233ec829586d4042db6fd41b91972f6ac16daba49c98481b2ee0082f"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass_pane_noside.json",
+      "issue": "duplicate_content",
+      "sha256": "d73be84cf3a918d85087e9e0b473fba24f36eae518f6f8b8b2dfe5fa4c320e29"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass_pane_noside_alt.json",
+      "issue": "duplicate_content",
+      "sha256": "724670d6c0f1e0f5571a23f8c81401c0410e10cc9549f2f8916bc198f0b04a51"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass_pane_post.json",
+      "issue": "duplicate_content",
+      "sha256": "91ce1a0fcfccd108fd7c26e28441aa732040568cd0ce8da61addc0dc22575f68"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass_pane_side.json",
+      "issue": "duplicate_content",
+      "sha256": "04d6d7f72a1deff7094e71244a1d41209c376d20e8f98ddc41d3d089e8a73040"
+    },
+    {
+      "path": "assets/create/models/block/vertical_framed_glass_pane_side_alt.json",
+      "issue": "duplicate_content",
+      "sha256": "ee82bedec613597c86a969b13f0785a5bd779033424a3584c329dc2a55545edd"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingle_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "5723b5253d6318a3c4c1cb443d11d6eca2af7bc3a0a82e9c5b22a433f3741aa8"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingle_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "fb1a81ad0b42a9c70993c67b402adbfad5b561c6c3ababaf416a0df72c2f53d0"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingle_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "5d2134f9fa633456ef49ec11d161b7546e5dc4ba2a83e2fd7ee84c32f63b0608"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingle_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "ec075834f1472afc1706290ead27ff2a4577d8b1c9e0be6af069cd8277552338"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingle_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "364260e93cc8a7c9f4fbf2a31d90e86e1b32263a07ee6d5e40f950fdc5ebc4eb"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_shingles.json",
+      "issue": "duplicate_content",
+      "sha256": "9cc5afb697494d149945ada88283531f12c4dba08f75c78e6a0a39ea6fa58837"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tile_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "6dca8cbb4ee5fa2e50b4ce09b8c129012bd72ffae8a0e5651f966536dcb06832"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tile_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "a08dade34eda8a57ae34a6962e84eae88175769e31d2332bbbd125d6e85824c1"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tile_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "94572a3baaaab1f3903734189cc6b89126c3b385659665f1e81f4ce733af8e88"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tile_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "c8002eb809584eb3ae2f0f652131e5704fdc5507f6a81e58033c7d905e1f7f44"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tile_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "b64fc6070355ed9973d4117751ead69e985128b82afac4e60772783a4e08cc6a"
+    },
+    {
+      "path": "assets/create/models/block/waxed_copper_tiles.json",
+      "issue": "duplicate_content",
+      "sha256": "8cd6af29329b37bf6855003409ffbed91c96aa8c7939771f7feaca218bbe9fe9"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingle_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "19b7d8c703e4140cdc9c1e45997a1c55dae352adc0a7f600aaf6aab2c5cf794d"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingle_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "23946f6713421bb00380359e75355d094211055ebdfcd234391384433d861ff6"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingle_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "19d6f1e9d73b566eed52b29788b1689b553f660a1026b699fe84a6f566af3121"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingle_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "35980606a64b2b7e9ffd594bdb84ba591d55db5dc7e2cb537de73a954a8970d1"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingle_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "bfa777b7022a2a2e430771fec039d8724d2be4a7f4772858f97e0632a5f46fb5"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_shingles.json",
+      "issue": "duplicate_content",
+      "sha256": "1caca1afa42a4d528a7c08ba030b9295419f410322347dee37cbb6a50c51e14d"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tile_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "bd5808d5d18cdd184c0529d5dcc6a06e0da14c5792fe81ce193d89657f82c1d8"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tile_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "6c49eab4055efaf977ca1ac03a3fb55568cbf900807ac28968be64e391147b02"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tile_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "78689469251a942101edfdae3245fcc4f958b7f931d3cedaa14baada1cc31e6a"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tile_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "4728d0765e3e2b60dc27ebc92bd8097cfe5a01c20f8443369d1501df4bcf4f6a"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tile_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "e0dfbccceee0e49806f5ef11096ae66296a945e757f8f76d3a8548c78b91e7f4"
+    },
+    {
+      "path": "assets/create/models/block/waxed_exposed_copper_tiles.json",
+      "issue": "duplicate_content",
+      "sha256": "ae7da46db89ee24aefdb369cd6b3fae8239fa4660f7332ca59afd1eee269b280"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingle_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "c35d42d7f64b91b6a4cbc4424c282d6f21293cec9ed4873255bbf722da76db9d"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingle_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "fe78b5518301334750f9eb843bf1d1da3f398bf261699e935a69c9d012a4ea5d"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingle_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "c3268b250824b8213e6f0bd4be973b5af066a63783b1e366858a7b0acf69c099"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingle_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "3429fd5f2b5a94739f581c8f2e05464be9012b0a442cd0c565eb4ab6c0c9e89f"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingle_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "477f913863c8fdaa29e122960064a0f60abc9e905731dff9b5b30844d1129129"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_shingles.json",
+      "issue": "duplicate_content",
+      "sha256": "876351bffe35b877ac1a1bdbcd3d52c385f5d1e025bf8d8599263e3b186cd53f"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tile_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "58194e01c443d2117a83a5ab30b78fd5be295af43a78950b3891253beb4f0229"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tile_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "c1a42561006e68d064b3604bdd32153677a24f14367af984451d3871eb0359fc"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tile_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "68870d3fdfe2d4902b772dfe0b55ab2cb2276556a9919a3166f23409d000a850"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tile_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "fd8c0ad1909676b90eeff4883899328516acf6150c53563cf964bc42b67ccdbc"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tile_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "705cf9b265f978f19aadb894e2d9c52a2c88cfad95701d544a188c0398c3175a"
+    },
+    {
+      "path": "assets/create/models/block/waxed_oxidized_copper_tiles.json",
+      "issue": "duplicate_content",
+      "sha256": "dffc193379df6c9fd44f0c40db159f6a38edfc0cc1998b66a91a0789309c7baf"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingle_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "a696b93e5277fec523e49d733294131729082058c5498d80f1c8b163135063a7"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingle_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "b043d7a9cef5ec465d068d207bc2571fa0b39db6c2a1da71c325e2e14f0349de"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingle_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "e40a32ca6f1bdfcc933fecb09c981a35a4a62014008acd1be025602ad5dee848"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingle_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "51e2b0a7f39886a4ccd5eb2507867375b714d33e6a305a2bf88be3a28eaa2092"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingle_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "e7e972e0ab2e7089e88bce71d3c53f9f5d9dc9c0a0d11f6c0b7ce59b50347b1b"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_shingles.json",
+      "issue": "duplicate_content",
+      "sha256": "3aee05be072fee6019baa2d2d25a0b98e6a0c8e184b5b54944aea3aa7c8f6b86"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tile_slab.json",
+      "issue": "duplicate_content",
+      "sha256": "fc5f8e02c79cfbd51fcd6561865998b4c467936118ed9acc44eb7e9a52f38988"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tile_slab_top.json",
+      "issue": "duplicate_content",
+      "sha256": "7fe6aaa19d4f13628ffa11b0da1debb6aa455e5eae2d705d48040dcd0bf6d340"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tile_stairs.json",
+      "issue": "duplicate_content",
+      "sha256": "719a664472285b40d206d44b627e95d88188894110966ac3cc861819d6ebad85"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tile_stairs_inner.json",
+      "issue": "duplicate_content",
+      "sha256": "6e4e2e14ca279871e7e598b0816365bc03fc5c9a908ea1deb9bb4706d3578bc9"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tile_stairs_outer.json",
+      "issue": "duplicate_content",
+      "sha256": "26232bee92ddf6498cc06dcbfae8397d67963d006cb606356637878b7b3584da"
+    },
+    {
+      "path": "assets/create/models/block/weathered_copper_tiles.json",
+      "issue": "duplicate_content",
+      "sha256": "f975b855893f0ad47516ea83239d8e013766a4782a41c9f6fa9dd171bb2ee509"
+    },
+    {
+      "path": "assets/create/models/block/white_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/block/yellow_nixie_tube.json",
+      "issue": "duplicate_content",
+      "sha256": "36606e65c75d2020cbad2eb33cdabe5efb5e503437ce277ffd5054cbb397ae4e"
+    },
+    {
+      "path": "assets/create/models/item/asurine.json",
+      "issue": "duplicate_content",
+      "sha256": "9267b110162d431b40a3060c063729a4d6331d7ca3caf56f0482b6d099dea6aa"
+    },
+    {
+      "path": "assets/create/models/item/crimsite.json",
+      "issue": "duplicate_content",
+      "sha256": "06996a7c6aadf5558b7fa919bc9d3fcdcf98e04fbe3bbb6a5cae624d487ea7ad"
+    },
+    {
+      "path": "assets/create/models/item/limestone.json",
+      "issue": "duplicate_content",
+      "sha256": "d0eee5ba6f57616fa6a4418e7dac935872bda4680e464e146b86b9ab2ae9689f"
+    },
+    {
+      "path": "assets/create/models/item/mysterious_cuckoo_clock.json",
+      "issue": "duplicate_content",
+      "sha256": "53ea5fd70fe1df626a3602be0212abaae9c819ad7e382a5f1e0524bd99e5fcba"
+    },
+    {
+      "path": "assets/create/models/item/netherite_backtank_placeable.json",
+      "issue": "duplicate_content",
+      "sha256": "37236f56fa0ca7011b1d534056e76865619661347cc4e8c3f362b57863aa2ced"
+    },
+    {
+      "path": "assets/create/models/item/ochrum.json",
+      "issue": "duplicate_content",
+      "sha256": "e9f9a464a98d8499ef45f64ca0da99b6d951e7fd64f4a88ec0c8797bec8ca18c"
+    },
+    {
+      "path": "assets/create/models/item/scorchia.json",
+      "issue": "duplicate_content",
+      "sha256": "4381d1c13bfb95f228bdf77e028353a0248d13ae09f1dca473d95b0926fd64b6"
+    },
+    {
+      "path": "assets/create/models/item/scoria.json",
+      "issue": "duplicate_content",
+      "sha256": "ee1d317927bfdb8549a4f7b517ea64ca46a1bb9ac7529c8ddb670b0f4c5cb22c"
+    },
+    {
+      "path": "assets/create/models/item/veridium.json",
+      "issue": "duplicate_content",
+      "sha256": "9a490a1196d8b1363351f262c922cfb5353a76115402eb333564323719b19c66"
+    },
+    {
+      "path": "assets/create/models/item/weathered_iron_window.json",
+      "issue": "duplicate_content",
+      "sha256": "2035882a64df0eea0af455fe024dd4c6be943d3b2ab600c91720ba1953831fc0"
+    },
+    {
+      "path": "assets/create/particles/air_flow.json",
+      "issue": "duplicate_content",
+      "sha256": "2b25dd669e0a4bbf1ee552b3672d59fd4204358cc9d4bdf5d590911829780e47"
+    },
+    {
+      "path": "assets/create/particles/fluid_drip.json",
+      "issue": "duplicate_content",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "assets/create/particles/fluid_particle.json",
+      "issue": "duplicate_content",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "assets/create/particles/soul_perimeter.json",
+      "issue": "duplicate_content",
+      "sha256": "940259771b611749af4416609935dc3d6f92d3eeff4271f6ada7365fb9746931"
+    },
+    {
+      "path": "assets/create/textures/block/bogey/belt.png",
+      "issue": "duplicate_content",
+      "sha256": "cdd7c1f9ab00e19ef56e9531538759b79e9f54f4fbabf2f5eb3c818a25cd11c4"
+    },
+    {
+      "path": "assets/create/textures/block/bogey/belt_scroll.png",
+      "issue": "duplicate_content",
+      "sha256": "bb3625a15e8d128c235a725e51f3a1147122ab656008d1c3afa19d07884d20d3"
+    },
+    {
+      "path": "assets/create/textures/block/factory_panel_connections_animated.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "dd4daf530182769d858f750edd3da2a2a839361ad8c506399528b0c27675b044"
+    },
+    {
+      "path": "assets/create/textures/block/funnel_closed.png",
+      "issue": "duplicate_content",
+      "sha256": "2e97441aaf0dc3b71418d972fd3c1c6a1ce96a67f126d1a3fde12176f947a470"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/cap/asurine_cut_cap.png",
+      "issue": "duplicate_content",
+      "sha256": "349f4693bac88128776d7b16e92e31850acf4c6bc661f9e698c653ec2e8e0063"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/cap/deepslate_cut_cap.png",
+      "issue": "duplicate_content",
+      "sha256": "bbca952f9db3f7fd470c263a2b70c88910a5f75ab3dcb7965a3712fbd2ff8992"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/cap/diorite_cut_cap.png",
+      "issue": "duplicate_content",
+      "sha256": "c3d01ce10cd70b90fc072b128642e83115cae5bf4eec6720215f5517318e8c6c"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/cap/granite_cut_cap.png",
+      "issue": "duplicate_content",
+      "sha256": "4a9461e6af816e98199ea870419c52fa0f291082a1db4ad17a05cf29c307481f"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/cap/ochrum_cut_cap.png",
+      "issue": "duplicate_content",
+      "sha256": "cb7dbc62fe328654b315ee651d43f9c92d25d84ee453814dc83e16ed117302f2"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/andesite_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "f3fd4f6232fffb43c68b26bae3b41c8811cb4e01a8c3802a3040c615c2eb5573"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/asurine_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "db74dc56e2dfa69a8e10f8c91e2fe195f0ed38238835efa4fcf3a88ce518679c"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/calcite_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "eb43f0475d07cdc8a248431bb4e0992cf1acd366c01da60521b5604575d2e4cd"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/crimsite_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "c7c11d011623ccd70cf4493b44680bbdcbbfd9f8e87c6e40fe3be5de1a11ca24"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/deepslate_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "822c0bcd17496bb32ee4552948f21999235f8b6bd27c3054d9a8969c3130ce31"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/diorite_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "2fa9f400c4ee3a83f389df7c6fa06fe49cb0600275bf5201a53afb2f03a32aa7"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/dripstone_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "e8dac29cffd122e90c9a0c61c6d383439f9b5f18081d96762315a7a184e498b1"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/granite_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "28397f2b7b1f6f7a91b922813f2305ace0976af4e404050c97d39ae16ee052c2"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/limestone_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "60c7754336a2d011dd6113009aecb3e01f32cc1e16c58da8beab2a245c63656a"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/ochrum_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "dabecccdc715a5c5064831afb2591fbb23e7d933e16f721cf950b9ad3b240502"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/scorchia_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "7c4b037f48cee17c500134c463f8186677c9a003b15edbf307568702cd9fd653"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/scoria_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "0501ffb2310988d041590884b9cba9d137feda164cab140708ac9611a36615f2"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/tuff_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "a0521909e2c3847c919032b52a4394e2fef72d703ee0addf1361e6d224a4d341"
+    },
+    {
+      "path": "assets/create/textures/block/palettes/stone_types/small_brick/veridium_cut_small_brick.png",
+      "issue": "duplicate_content",
+      "sha256": "591becad534e630e61b1b20762ab0d83b69259348395a027f70201186fb00f0b"
+    },
+    {
+      "path": "assets/create/textures/fluid/honey_flow.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+    },
+    {
+      "path": "assets/create/textures/fluid/milk_flow.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
+    },
+    {
+      "path": "assets/create/textures/fluid/milk_still.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
+    },
+    {
+      "path": "assets/create/textures/fluid/potion_still.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
+    },
+    {
+      "path": "assets/create/textures/fluid/tea_flow.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
+    },
+    {
+      "path": "assets/create/textures/fluid/tea_still.png.mcmeta",
+      "issue": "duplicate_content",
+      "sha256": "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
+    },
+    {
+      "path": "assets/create/textures/gui/advancements.png",
+      "issue": "duplicate_content",
+      "sha256": "d96ff7747f62a11df55c48cfbbfb4a80d233bbccfeab543d4bd4f66761baea0b"
+    },
+    {
+      "path": "assets/create/textures/item/furnace_minecart_contraption.png",
+      "issue": "duplicate_content",
+      "sha256": "9b70fe528b0efb19fa0518dc7f9be122da82c27e27fccc131dec2bde27973948"
+    },
+    {
+      "path": "assets/create/textures/item/minecart_contraption.png",
+      "issue": "duplicate_content",
+      "sha256": "9b70fe528b0efb19fa0518dc7f9be122da82c27e27fccc131dec2bde27973948"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_end_2.png",
+      "issue": "duplicate_content",
+      "sha256": "50a15c5760f27976ec5b13bc8b0650687378a00251f7216e93422bc58703630a"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_end_3.png",
+      "issue": "duplicate_content",
+      "sha256": "9f4fb66b9caf52f14586480e9a29541035af6f6e1edc93e39439579ccbe970a3"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_end_4.png",
+      "issue": "duplicate_content",
+      "sha256": "36b1b70e0649207434787bdbf80b1b049daf2a7f0391c9d9d70fd1a88b9a28f4"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_10.png",
+      "issue": "duplicate_content",
+      "sha256": "ab0558df3bf791c2b8cbcd971a16a57c9d33f82eb60031d9f7edee24aceab4fe"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_11.png",
+      "issue": "duplicate_content",
+      "sha256": "a3c84499004a0614eb32fac2786547169a91b2eb4c7bf61e90279123d596d31f"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_12.png",
+      "issue": "duplicate_content",
+      "sha256": "b6382d6a4fbf8353dd1ba1b0e13d41bf511c28ba2ebda62442365274b1d63af5"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_13.png",
+      "issue": "duplicate_content",
+      "sha256": "0ac8023eba0ab4bd41c91b36398a1469914370c9cbba8119fffca6ae2391843b"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_14.png",
+      "issue": "duplicate_content",
+      "sha256": "1488f3d49b23ece4524efa2d71c8be16ba802dc732a7f35cf67784170cb5da5d"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_15.png",
+      "issue": "duplicate_content",
+      "sha256": "eb7deea1f338c8e99a754d5fbf30390cb0d8aca532f14a77743f2d8e947f7812"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_16.png",
+      "issue": "duplicate_content",
+      "sha256": "891505cbded69eb9d67e882afd0d7e274cdf1596dc4494ae20db66ea92651820"
+    },
+    {
+      "path": "assets/create/textures/particle/soul_sprite_start_17.png",
+      "issue": "duplicate_content",
+      "sha256": "6f0e5c26b8998ae7fd49c3918eaf8c081faa7746a24440c805c3023e9c66f35f"
+    },
+    {
+      "path": "assets/create/textures/particle/steam_jet_0.png",
+      "issue": "duplicate_content",
+      "sha256": "513a8184718d4b2ac5f971917513c7aca810129c09352e37f38c61737e57d7c9"
+    },
+    {
+      "path": "assets/create/textures/particle/steam_jet_22.png",
+      "issue": "duplicate_content",
+      "sha256": "513a8184718d4b2ac5f971917513c7aca810129c09352e37f38c61737e57d7c9"
+    },
+    {
+      "path": "assets/create/textures/particle/wifi_13.png",
+      "issue": "duplicate_content",
+      "sha256": "334071eefb0a71c4bb8fc44466e6de66ce22ae0e93cc41443364374d0dbe9a05"
+    },
+    {
+      "path": "assets/create/textures/particle/wifi_14.png",
+      "issue": "duplicate_content",
+      "sha256": "334071eefb0a71c4bb8fc44466e6de66ce22ae0e93cc41443364374d0dbe9a05"
+    },
+    {
+      "path": "assets/create/textures/particle/wifi_15.png",
+      "issue": "duplicate_content",
+      "sha256": "334071eefb0a71c4bb8fc44466e6de66ce22ae0e93cc41443364374d0dbe9a05"
+    },
+    {
+      "path": "assets/create/textures/ponder/tag/item_transfer.png",
+      "issue": "duplicate_content",
+      "sha256": "577a7fc85492438ae48133bdc8c17acb61a289f20360a7bc92c061353a800360"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/black_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/black_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/black_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/blue_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/blue_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/blue_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/blue_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/brown_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/brown_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/brown_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/brown_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/cyan_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/cyan_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/cyan_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/cyan_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/gray_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/gray_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/gray_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/gray_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/green_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/green_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/green_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/green_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_blue_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_blue_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_blue_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_blue_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_gray_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_gray_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_gray_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/light_gray_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/lime_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/lime_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/lime_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/lime_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/magenta_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/magenta_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/magenta_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/magenta_wall_hanging_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/orange_canvas_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    },
+    {
+      "path": "assets/farmersdelight/blockstates/orange_canvas_wall_sign.json",
+      "issue": "duplicate_content",
+      "sha256": "cbcac30eb900843d59d57e3cf341667524c6f7b1a2b6462407bb1e43cae78701"
+    }
+  ],
+  "notes": [
+    "Files are copied into raw/<namespace>/<type>/<file> and normalized into a standard resource-pack layout.",
+    "Duplicate content (by SHA-256) is logged and skipped.",
+    "Invalid namespaces and paths are normalized to lowercase with underscores."
+  ]
+}

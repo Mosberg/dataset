@@ -1,0 +1,45 @@
+{
+  "containers": [
+    {
+      "fill_sound": "minecraft:block.honey_block.place",
+      "empty_sound": "minecraft:block.honey_block.break",
+      "filled": [
+        "the_bumblezone:royal_jelly_block"
+      ],
+      "empty": "minecraft:air",
+      "capacity": "BLOCK"
+    },
+    {
+      "fill_sound": "minecraft:block.honey_block.place",
+      "empty_sound": "minecraft:block.honey_block.break",
+      "filled": [
+        "the_bumblezone:royal_jelly_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": "BOTTLE"
+    }
+  ],
+  "food": {
+    "item": "the_bumblezone:royal_jelly_bottle"
+  },
+  "tint_method": "no_tint",
+  "equivalent_fluids": [
+    "the_bumblezone:royal_jelly_fluid_still"
+  ],
+  "use_texture_from": "the_bumblezone:royal_jelly_fluid_still",
+  "still_texture": "the_bumblezone:block/royal_jelly_fluid/still",
+  "flowing_texture": "the_bumblezone:block/flowing_royal_jelly_fluid/flowing",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ],
+  "from_mod": "the_bumblezone"
+}

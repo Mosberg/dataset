@@ -1,0 +1,9 @@
+{
+  "render_fluid": "moonlight:water",
+  "fish_index": 18,
+  "height_increment": 0.0,
+  "owners": [
+    "finsandtails:swamp_mucker"
+  ],
+  "width_increment": 0.125
+}

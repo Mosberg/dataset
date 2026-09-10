@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "structure": "supplementaries:galleon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "supplementaries:random_spread_with_exclusion",
+    "salt": 121047156,
+    "spacing": 31,
+    "separation": 19,
+    "exclusion_zones": [
+      {
+        "chunk_count": 16,
+        "other_set": "minecraft:villages"
+      },
+      {
+        "chunk_count": 5,
+        "other_set": "minecraft:ocean_monuments"
+      }
+    ]
+  }
+}

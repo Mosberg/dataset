@@ -1,0 +1,28 @@
+{
+  "color": "#bff0f0",
+  "containers": [
+    {
+      "filled": [
+        "minecraft:ghast_tear"
+      ],
+      "empty": "minecraft:air",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "minecraft"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+  "translation_key": "item.minecraft.ghast_tear"
+}

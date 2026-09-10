@@ -1,0 +1,31 @@
+{
+  "color": "#81f2f9",
+  "containers": [
+    {
+      "filled": [
+        "iceandfire:frost_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": "BOWL"
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": "BOWL",
+    "item": "iceandfire:frost_stew"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

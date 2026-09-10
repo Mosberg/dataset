@@ -1,0 +1,28 @@
+{
+  "color": "#f6cfca",
+  "containers": [
+    {
+      "filled": [
+        "neapolitan:vanilla_milkshake"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "neapolitan"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neapolitan"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.neapolitan.vanilla_milkshake"
+}

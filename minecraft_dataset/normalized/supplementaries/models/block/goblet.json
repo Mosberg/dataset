@@ -1,0 +1,9 @@
+{
+	"loader": "supplementaries:goblet",
+	"model": "supplementaries:block/goblet_empty",
+	"liquid": "supplementaries:block/goblet_liquid",
+	"textures": {
+		"0": "supplementaries:block/goblet",
+		"particle": "supplementaries:block/goblet"
+	}
+}

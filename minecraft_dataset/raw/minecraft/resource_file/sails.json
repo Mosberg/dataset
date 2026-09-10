@@ -1,0 +1,42 @@
+{
+  "name": "supplementaries:galleon/sails",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/sail01",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/sail02",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/sail03",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/sail04",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "cannon"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "cannon"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "020",
+    "131"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "0": {
+      "tag": "c:ingots/iron"
+    },
+    "2": {
+      "item": "supplementaries:slingshot"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "supplementaries:cannon",
+    "count": 1
+  }
+}

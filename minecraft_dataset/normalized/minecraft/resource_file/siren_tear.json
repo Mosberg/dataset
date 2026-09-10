@@ -1,0 +1,28 @@
+{
+  "color": "#a4e0fc",
+  "containers": [
+    {
+      "filled": [
+        "iceandfire:siren_tear"
+      ],
+      "empty": "minecraft:air",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/milk_liquid",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+  "translation_key": "item.iceandfire.siren_tear"
+}

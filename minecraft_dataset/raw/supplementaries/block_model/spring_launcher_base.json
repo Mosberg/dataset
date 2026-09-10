@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/piston_extended",
+    "textures": {
+		"particle": "supplementaries:block/spring_launcher_side",
+        "bottom": "supplementaries:block/spring_launcher_bottom",
+        "side": "supplementaries:block/spring_launcher_side",
+        "inside": "supplementaries:block/spring_launcher_inner"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "render_fluid": "moonlight:water",
+  "fish_index": 15,
+  "height_increment": 0.0,
+  "owners": [
+    "finsandtails:midnight_squid"
+  ],
+  "width_increment": 0.125
+}

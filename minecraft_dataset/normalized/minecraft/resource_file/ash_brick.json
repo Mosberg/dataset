@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "ash_bricks"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "ash_bricks"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:ash"
+  },
+  "result": {
+    "id": "supplementaries:ash_brick"
+  },
+  "experience": 0.3,
+  "cookingtime": 200
+}

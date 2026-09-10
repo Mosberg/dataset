@@ -1,0 +1,12 @@
+{
+  "type": "supplementaries:wrap_on_christmas",
+  "trade": {
+    "type": "supplementaries:random_firework_star",
+    "max_trades": 12,
+    "price": {
+      "id": "minecraft:emerald",
+      "count": 1
+    },
+    "amount": 1
+  }
+}

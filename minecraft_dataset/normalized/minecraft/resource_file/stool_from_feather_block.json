@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "feather_block"
+    },
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "feather_block"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "111"
+  ],
+  "key": {
+    "0": {
+      "item": "supplementaries:feather_block"
+    },
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "id": "quark:white_stool",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "rope"
+    },
+    {
+      "condition": "supplementaries:flag",
+      "flag": "flax"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "rope"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "flax"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1  ",
+    "1  ",
+    "1  "
+  ],
+  "key": {
+    "1": {
+      "tag": "c:crops/flax"
+    }
+  },
+  "result": {
+    "id": "supplementaries:rope",
+    "count": 3
+  }
+}

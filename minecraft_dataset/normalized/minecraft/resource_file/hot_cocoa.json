@@ -1,0 +1,32 @@
+{
+  "color": "#8f563b",
+  "containers": [
+    {
+      "filled": [
+        "farmersdelight:hot_cocoa"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/milk_liquid",
+  "food": {
+    "divider": 1,
+    "item": "farmersdelight:hot_cocoa"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+  "translation_key": "item.farmersdelight.hot_cocoa"
+}

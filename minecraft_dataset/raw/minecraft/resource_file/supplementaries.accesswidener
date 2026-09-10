@@ -1,0 +1,152 @@
+accessWidener   v2  named
+
+
+#structure locator stuff
+accessible method net/minecraft/world/level/chunk/ChunkGenerator getNearestGeneratedStructure (Ljava/util/Set;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/core/BlockPos;ZLnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;)Lcom/mojang/datafixers/util/Pair;
+accessible class net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor
+
+accessible field net/minecraft/client/renderer/GameRenderer effectActive Z
+
+#plunderer boat stuff
+accessible field net/minecraft/world/entity/vehicle/Boat deltaRotation F
+accessible method net/minecraft/world/entity/vehicle/Boat controlBoat ()V
+accessible method net/minecraft/world/entity/ai/navigation/PathNavigation shouldTargetNextNodeInDirection (Lnet/minecraft/world/phys/Vec3;)Z
+accessible field net/minecraft/world/level/block/piston/PistonBaseBlock isSticky Z
+accessible method net/minecraft/world/level/block/piston/PistonBaseBlock getNeighborSignal (Lnet/minecraft/world/level/SignalGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z
+accessible field net/minecraft/world/item/ItemCooldowns$CooldownInstance endTime I
+accessible field net/minecraft/world/item/ItemCooldowns$CooldownInstance startTime I
+
+accessible field net/minecraft/world/item/ItemCooldowns cooldowns Ljava/util/Map;
+accessible class net/minecraft/world/item/ItemCooldowns$CooldownInstance
+
+accessible class net/minecraft/world/item/BrushItem$DustParticlesDelta
+accessible method  net/minecraft/world/item/BrushItem$DustParticlesDelta <init> (DDD)V
+
+accessible method net/minecraft/world/item/context/UseOnContext getHitResult ()Lnet/minecraft/world/phys/BlockHitResult;
+
+extendable method net/minecraft/client/resources/sounds/AbstractTickableSoundInstance stop ()V
+
+# camera
+accessible method net/minecraft/client/Camera getMaxZoom (F)F
+accessible method net/minecraft/client/Camera move (FFF)V
+
+accessible field net/minecraft/world/item/MobBucketItem type Lnet/minecraft/world/entity/EntityType;
+
+accessible field net/minecraft/world/level/block/ConcretePowderBlock concrete Lnet/minecraft/world/level/block/Block;
+
+accessible method net/minecraft/world/entity/animal/Wolf setCollarColor (Lnet/minecraft/world/item/DyeColor;)V
+
+# map stuff
+accessible class net/minecraft/client/gui/MapRenderer$MapInstance
+accessible method net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction <init> (Ljava/util/List;Lnet/minecraft/tags/TagKey;Lnet/minecraft/core/Holder;BIZ)V
+accessible field net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction zoom B
+accessible field net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction mapDecoration Lnet/minecraft/core/Holder;
+accessible field net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction searchRadius I
+accessible field net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction skipKnownStructures Z
+accessible field net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction destination Lnet/minecraft/tags/TagKey;
+
+accessible method net/minecraft/world/level/block/FallingBlock tick (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V
+
+accessible field net/minecraft/world/entity/Mob goalSelector Lnet/minecraft/world/entity/ai/goal/GoalSelector;
+
+# awning model hack
+mutable field net/minecraft/client/renderer/block/model/BlockElement rotation Lnet/minecraft/client/renderer/block/model/BlockElementRotation;
+accessible field net/minecraft/client/renderer/block/model/BlockModel textureMap Ljava/util/Map;
+
+# schedule tick
+accessible field net/minecraft/world/ticks/LevelTicks allContainers Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+# fire delegate
+accessible method net/minecraft/world/level/block/FireBlock getIgniteOdds (Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)I
+accessible method net/minecraft/world/level/block/FireBlock getStateWithAge (Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/level/block/state/BlockState;
+accessible method net/minecraft/world/level/block/FireBlock isNearRain (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z
+#piston stuff
+accessible field net/minecraft/world/level/block/piston/PistonMovingBlockEntity lastTicked J
+accessible field net/minecraft/world/level/block/piston/PistonMovingBlockEntity progressO F
+accessible field net/minecraft/world/level/block/piston/PistonMovingBlockEntity progress F
+accessible field net/minecraft/world/level/block/piston/PistonMovingBlockEntity deathTicks I
+accessible method net/minecraft/world/level/block/piston/PistonMovingBlockEntity moveCollidedEntities (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;FLnet/minecraft/world/level/block/piston/PistonMovingBlockEntity;)V
+accessible method net/minecraft/world/level/block/piston/PistonMovingBlockEntity moveStuckEntities (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;FLnet/minecraft/world/level/block/piston/PistonMovingBlockEntity;)V
+
+#shulker menu
+accessible field net/minecraft/world/inventory/ShulkerBoxMenu container Lnet/minecraft/world/Container;
+
+#sign renderer
+accessible method net/minecraft/client/renderer/blockentity/SignRenderer translateSignText (Lcom/mojang/blaze3d/vertex/PoseStack;ZLnet/minecraft/world/phys/Vec3;)V
+
+accessible method net/minecraft/server/network/ServerGamePacketListenerImpl filterTextPacket (Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+accessible method net/minecraft/server/network/ServerGamePacketListenerImpl filterTextPacket (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+accessible method net/minecraft/world/level/block/entity/SignBlockEntity createCommandSourceStack (Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/commands/CommandSourceStack;
+#wet wolf
+accessible field net/minecraft/world/entity/animal/Wolf isWet Z
+
+#doors
+accessible method net/minecraft/world/level/block/DoorBlock playSound (Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Z)V
+
+#hanging sign
+accessible method net/minecraft/client/renderer/blockentity/SignRenderer renderSignText (Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/SignText;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IIIZ)V
+
+#parrot model on shoulder
+accessible method net/minecraft/client/model/ParrotModel prepare (Lnet/minecraft/client/model/ParrotModel$State;)V
+accessible method net/minecraft/client/model/ParrotModel setupAnim (Lnet/minecraft/client/model/ParrotModel$State;IFFFFF)V
+
+accessible field net/minecraft/client/GameNarrator narrator Lcom/mojang/text2speech/Narrator;
+
+
+#explosions
+accessible field net/minecraft/world/level/Explosion source Lnet/minecraft/world/entity/Entity;
+
+accessible field net/minecraft/world/level/block/CrossCollisionBlock PROPERTY_BY_DIRECTION Ljava/util/Map;
+
+#shadow radius
+accessible field net/minecraft/client/renderer/entity/EntityRenderer shadowRadius F
+
+#touching water
+accessible field net/minecraft/world/entity/Entity wasTouchingWater Z
+
+accessible class net/minecraft/world/level/biome/Biome$ClimateSettings
+accessible method net/minecraft/world/level/biome/Biome$ClimateSettings <init> (ZFLnet/minecraft/world/level/biome/Biome$TemperatureModifier;F)V
+
+#font stuff
+accessible class net/minecraft/client/gui/Font$StringRenderOutput
+accessible field net/minecraft/client/gui/Font$StringRenderOutput x F
+accessible field net/minecraft/client/gui/Font$StringRenderOutput y F
+accessible method net/minecraft/client/gui/Font getFontSet (Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/gui/font/FontSet;
+
+#beacon name
+accessible field net/minecraft/world/level/block/entity/BeaconBlockEntity name Lnet/minecraft/network/chat/Component;
+
+#place context
+accessible method net/minecraft/world/item/context/BlockPlaceContext <init> (Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/BlockHitResult;)V
+
+#wololoo red merchants
+accessible class net/minecraft/world/entity/monster/SpellcasterIllager$SpellcasterUseSpellGoal
+accessible class net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+accessible method net/minecraft/world/entity/monster/Evoker getCastingSoundEvent ()Lnet/minecraft/sounds/SoundEvent;
+
+#mineshaft stuff
+accessible class net/minecraft/world/level/levelgen/structure/structures/MineshaftPieces$MineShaftPiece
+accessible method net/minecraft/world/level/levelgen/structure/structures/MineshaftPieces generateAndAddPiece (Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;IIILnet/minecraft/core/Direction;I)Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftPieces$MineShaftPiece;
+
+#luck for urns
+accessible field net/minecraft/world/level/storage/loot/LootParams$Builder luck F
+
+#firework recipe for enderman head
+accessible field net/minecraft/world/item/crafting/FireworkStarRecipe SHAPE_BY_ITEM Ljava/util/Map;
+
+#camera stuff
+accessible method net/minecraft/client/Camera setRotation (FF)V
+accessible method net/minecraft/client/Camera setPosition (Lnet/minecraft/world/phys/Vec3;)V
+accessible field net/minecraft/world/entity/projectile/Projectile ownerUUID Ljava/util/UUID;
+accessible field net/minecraft/world/entity/projectile/Projectile cachedOwner Lnet/minecraft/world/entity/Entity;
+
+#game renderer post process for skuls
+accessible field net/minecraft/client/renderer/GameRenderer postEffect Lnet/minecraft/client/renderer/PostChain;
+
+accessible method net/minecraft/client/renderer/GameRenderer loadEffect (Lnet/minecraft/resources/ResourceLocation;)V
+
+#flower pot fabric
+accessible field net/minecraft/world/level/block/FlowerPotBlock POTTED_BY_CONTENT Ljava/util/Map;
+
+accessible field net/minecraft/world/level/block/ColoredFallingBlock dustColor Lnet/minecraft/util/ColorRGBA;
+accessible method net/minecraft/world/level/Explosion getIndirectSourceEntityInternal (Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/LivingEntity;
+

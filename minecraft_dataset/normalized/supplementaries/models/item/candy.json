@@ -1,0 +1,21 @@
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/candy"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "supplementaries:wrapping": 0.5
+      },
+      "model":  "supplementaries:item/candy_halloween"
+    },
+    {
+      "predicate": {
+        "supplementaries:wrapping": 1
+      },
+      "model":  "supplementaries:item/candy_christmas"
+    }
+  ]
+}

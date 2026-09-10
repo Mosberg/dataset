@@ -1,0 +1,28 @@
+{
+  "color": "#902454",
+  "containers": [
+    {
+      "filled": [
+        "malum:unholy_syrup"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/honey_liquid",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/honey_liquid",
+  "translation_key": "item.malum.holy_syrup"
+}

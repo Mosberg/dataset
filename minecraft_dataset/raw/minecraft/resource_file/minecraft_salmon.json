@@ -1,0 +1,9 @@
+{
+  "render_fluid": "moonlight:water",
+  "fish_index": 2,
+  "height_increment": 0.0,
+  "owners": [
+    "minecraft:salmon"
+  ],
+  "width_increment": 0.125
+}

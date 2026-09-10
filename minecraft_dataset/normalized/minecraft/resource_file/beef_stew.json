@@ -1,0 +1,38 @@
+{
+  "color": "#713f2d",
+  "containers": [
+    {
+      "filled": [
+        "farmersdelight:beef_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": "BOWL"
+    },
+    {
+      "filled": [
+        "miners_delight:beef_stew_cup"
+      ],
+      "empty": "miners_delight:copper_cup",
+      "capacity": "BOTTLE"
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": "BOWL",
+    "item": "farmersdelight:beef_stew"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

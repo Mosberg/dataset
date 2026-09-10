@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "modid": "create",
+      "condition": "fabric:mod_loaded"
+    },
+    {
+      "condition": "supplementaries:flag",
+      "flag": "bamboo_spikes_tipped"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "bamboo_spikes_tipped"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "supplementaries:bamboo_spikes_tipped"
+    }
+  ],
+  "results": [
+    {
+      "id": "supplementaries:bamboo_spikes",
+      "amount": 1
+    }
+  ]
+}

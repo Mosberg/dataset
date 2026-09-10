@@ -1,0 +1,32 @@
+{
+  "color": "#bbdf62",
+  "containers": [
+    {
+      "filled": [
+        "gooseberry_jam:gooseberry_juice_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "gooseberry_jam:gooseberry_juice_bottle"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "bayou_blues"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bayou_blues"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/potion_still",
+  "translation_key": "item.bayou_blues.gooseberry_juice_bottle"
+}

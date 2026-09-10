@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "flag": "antique_ink",
+      "condition": "supplementaries:flag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "antique_ink"
+    }
+  ],
+  "type": "simple",
+  "max_trades": 12,
+  "price_multiplier": 0.2,
+  "price": {
+    "id": "minecraft:emerald",
+    "count": 8
+  },
+  "offer": {
+    "id": "supplementaries:antique_ink",
+    "count": 1
+  },
+  "level": 5
+}

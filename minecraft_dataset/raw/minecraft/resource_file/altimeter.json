@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "altimeter"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "altimeter"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "101",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "tag": "c:ingots/copper"
+    },
+    "0": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "supplementaries:altimeter",
+    "count": 1
+  }
+}

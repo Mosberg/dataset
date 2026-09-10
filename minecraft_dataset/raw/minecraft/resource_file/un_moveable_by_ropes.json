@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"#c:double_blocks","required":false},
+    {"id":"#minecraft:doors","required":false}
+  ]
+}

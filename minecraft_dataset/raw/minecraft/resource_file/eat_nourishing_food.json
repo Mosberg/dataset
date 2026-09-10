@@ -1,0 +1,32 @@
+{
+  "parent": "farmersdelight:main/place_cooking_pot",
+  "criteria": {
+    "nourishment": {
+      "conditions": {
+        "effects": {
+          "farmersdelight:nourishment": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.farmersdelight.eat_nourishing_food.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "farmersdelight:steak_and_potatoes"
+    },
+    "title": {
+      "translate": "advancements.farmersdelight.eat_nourishing_food.title"
+    }
+  },
+  "requirements": [
+    [
+      "nourishment"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

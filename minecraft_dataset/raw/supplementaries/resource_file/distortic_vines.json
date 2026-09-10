@@ -1,0 +1,8 @@
+{
+  "required_mod": "pokecube_legends",
+
+  "parent": "supplementaries:special_models/plants/cross_template",
+  "textures": {
+    "plant": "pokecube_legends:block/potted_distortic_vines"
+  }
+}

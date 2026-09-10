@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "flag": "deepslate_lamp",
+      "condition": "supplementaries:flag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "deepslate_lamp"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate"
+    },
+    "1": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "id": "supplementaries:deepslate_lamp",
+    "count": 1
+  }
+}

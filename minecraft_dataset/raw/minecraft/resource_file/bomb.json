@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "bomb"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "bomb"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "bomb",
+  "pattern": [
+    " 12",
+    "101",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tnt"
+    },
+    "1": {
+      "tag": "c:ingots/iron"
+    },
+    "2": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "supplementaries:bomb",
+    "count": 4
+  }
+}

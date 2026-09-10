@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "ftbquests:screen",
+	"result": {
+		"id": "ftbquests:task_screen_configurator"
+	},
+	"pattern": [
+		" S",
+		"T "
+	],
+	"key": {
+		"S": "ftbquests:screen_1",
+		"T": "#c:rods/wooden"
+	}
+}

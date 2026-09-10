@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "trapped_present"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "trapped_present"
+    }
+  ],
+  "type": "supplementaries:trapped_present",
+  "ingredient": {
+    "item": "minecraft:tripwire_hook"
+  }
+}

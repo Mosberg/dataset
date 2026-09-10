@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbquests:screen",
+  "result": {
+    "id": "ftbquests:screen_1"
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "B": "book",
+    "C": "minecraft:stone"
+  }
+}

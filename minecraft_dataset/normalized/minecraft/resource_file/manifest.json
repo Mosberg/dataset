@@ -1,0 +1,55 @@
+{
+  "schema": "minecraft-java-resource-llm-v1",
+  "format": "conversational-jsonl",
+  "source_root": "D:\\Projekter\\Minecraft\\Resources",
+  "system_prompt": "You are an expert Minecraft Java Edition resource-pack engineer.\nReturn technically accurate, copy-ready files and explain assumptions briefly.\nRespect namespace paths, JSON syntax, model parent references, texture paths,\nblockstate variants, animation .mcmeta files, pack format compatibility, and\nmodded namespaces. Never invent a file's contents when the provided context is\ninsufficient; request the missing file or state what is unknown.",
+  "seed": 42,
+  "split_ratios": {
+    "validation": 0.05,
+    "test": 0.05
+  },
+  "counts": {
+    "train": 15215,
+    "validation": 840,
+    "test": 840
+  },
+  "total": 16895,
+  "resource_types": {
+    "atlas": 4,
+    "block_model": 3750,
+    "blockstate": 1069,
+    "font": 2,
+    "item_model": 1325,
+    "language": 174,
+    "optifine_asset": 1,
+    "pack_metadata": 1,
+    "particle": 37,
+    "resource_file": 7146,
+    "sound_definition": 205,
+    "texture": 3181
+  },
+  "namespaces": {
+    "amendments": 2,
+    "create": 4844,
+    "dynamictrees": 2,
+    "emi": 1,
+    "farmersdelight": 924,
+    "ftbquests": 132,
+    "minecraft": 57,
+    "placeableitems": 578,
+    "root": 6638,
+    "sophisticatedbackpacks": 212,
+    "supplementaries": 3502,
+    "vslab_compat": 3
+  },
+  "skipped": {
+    "duplicate_content": 1173,
+    "unsupported_or_empty": 84
+  },
+  "quality_notes": [
+    "Examples are deterministic and content-hash identified.",
+    "JSON files are parsed when valid; malformed JSON is retained as text context for diagnosis.",
+    "Binary assets receive metadata-level examples because pixel/audio semantics require a vision/audio encoder or captions.",
+    "Generated answers describe structure and references; they are not a substitute for verified game-version documentation."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "supplementaries:special_models/plants/simple/bush",
+	"ambientocclusion": false,
+	"textures": {
+		"flower": "supplementaries:block/plants/simple/potted_lilac"
+	}
+}

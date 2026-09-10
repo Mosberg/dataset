@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "supplementaries:block/checkerboard2",
+		"top": "supplementaries:block/checkerboard2",
+		"bottom": "supplementaries:block/checkerboard"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#bottom", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	]
+}

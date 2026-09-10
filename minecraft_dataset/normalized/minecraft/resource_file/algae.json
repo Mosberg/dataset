@@ -1,0 +1,32 @@
+{
+  "color": "#42a073",
+  "containers": [
+    {
+      "filled": [
+        "goodending:algae_bucket"
+      ],
+      "empty": "minecraft:bucket",
+      "capacity": "BUCKET"
+    }
+  ],
+  "flowing_texture": "goodending:block/algae",
+  "food": {
+    "divider": "BUCKET",
+    "item": "goodending:algae_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "goodending"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goodending"
+    }
+  ],
+
+  "still_texture": "goodending:block/algae",
+  "translation_key": "item.goodending.algae_bucket"
+}

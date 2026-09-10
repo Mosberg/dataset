@@ -1,0 +1,31 @@
+{
+    "color": "976638",
+    "containers": [
+        {
+            "filled": [
+                "rusticdelight:milk_coffee"
+            ],
+            "empty": "minecraft:glass_bottle",
+            "capacity": "BOTTLE"
+        }
+    ],
+    "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+    "food": {
+        "divider": "BOTTLE",
+        "item": "rusticdelight:milk_coffee"
+    },
+    "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "rusticdelight"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    }
+  ],
+
+    "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

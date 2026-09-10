@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "flag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "flag"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "flag",
+  "pattern": [
+    "111",
+    "111",
+    "2  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "2": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "supplementaries:flag_light_gray",
+    "count": 1
+  }
+}

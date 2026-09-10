@@ -1,0 +1,32 @@
+{
+  "color": "#4ee13b",
+  "containers": [
+    {
+      "filled": [
+        "atmospheric:yucca_juice"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "atmospheric:yucca_juice"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ],
+
+  "still_texture": "moonlight:block/soft_fluids/potion_still",
+  "translation_key": "item.atmospheric:yucca_juice"
+}

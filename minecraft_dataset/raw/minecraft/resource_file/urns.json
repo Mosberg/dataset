@@ -1,0 +1,19 @@
+{
+  "name": "supplementaries:galleon/urns",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": {
+          "feature": "supplementaries:urns_patch",
+          "placement": [
+          ]
+        },
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    }
+  ]
+}

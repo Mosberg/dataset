@@ -1,0 +1,8 @@
+{
+	"loader": "supplementaries:faucet",
+	"textures": {
+		"particle": "supplementaries:block/faucet"
+	},
+	"model": "supplementaries:block/faucet_model",
+	"liquid": "supplementaries:block/faucet_liquid"
+}

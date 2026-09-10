@@ -1,0 +1,155 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "options": "#minecraft:on_random_loot",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 34.0,
+                                "max": 91.0
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "min": 0.3,
+                                "max": 0.8
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:curse"
+                        }
+                    ],
+                    "name": "minecraft:diamond_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "options": "#minecraft:on_random_loot",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 34.0,
+                                "max": 91.0
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "min": 0.3,
+                                "max": 0.8
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:curse"
+                        }
+                    ],
+                    "name": "minecraft:diamond_boots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10.0,
+                                "max": 64.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 5.0,
+                                "max": 8.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "moonlight:load_conditions",
+                            "fabric:load_conditions": [
+                                {
+                                    "condition": "supplementaries:flag",
+                                    "flag": "bomb"
+                                }
+                            ],
+                            "neoforge:conditions": [
+                                {
+                                    "type": "supplementaries:flag",
+                                    "flag": "bomb"
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "supplementaries:bomb_blue"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1.0,
+                                "max": 4.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "minecraft:ender_pearl"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 4.0,
+                                "max": 12.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "minecraft:slime_ball"
+                }
+            ]
+        }
+    ]
+}

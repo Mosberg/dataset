@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "flag": "rope_arrow",
+      "condition": "supplementaries:flag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "rope_arrow"
+    }
+  ],
+  "type": "supplementaries:wrap_on_christmas",
+  "trade": {
+    "type": "simple",
+    "max_trades": 12,
+    "price": {
+      "id": "minecraft:emerald",
+      "count": 4
+    },
+    "offer": {
+      "id": "supplementaries:rope_arrow",
+      "count": 1,
+      "components": {
+        "damage": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbquests:screen",
+  "result": {
+    "id": "ftbquests:screen_7"
+  },
+  "pattern": [
+    "353",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "3": "ftbquests:screen_3",
+    "5": "ftbquests:screen_5",
+    "C": "ftbquests:screen_1"
+  }
+}

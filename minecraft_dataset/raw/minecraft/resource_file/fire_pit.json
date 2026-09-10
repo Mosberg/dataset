@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "fire_pit"
+    },
+    {
+      "condition": "supplementaries:flag",
+      "flag": "lumisene"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "fire_pit"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "lumisene"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "111"
+  ],
+  "key": {
+    "2": {
+      "item": "supplementaries:lumisene_bottle"
+    },
+    "1": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "result": {
+    "id": "supplementaries:fire_pit",
+    "count": 1
+  }
+}

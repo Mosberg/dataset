@@ -1,0 +1,33 @@
+{
+  "name": "supplementaries:galleon/hull_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/hull_back01",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/hull_back02",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "supplementaries:galleon/hull_back03",
+        "processors": "supplementaries:remove_disabled_blocks",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

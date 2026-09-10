@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "sack"
+    },
+    {
+      "condition": "supplementaries:flag",
+      "flag": "flax"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "sack"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "flax"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "1 1",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "c:crops/flax"
+    },
+    "2": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "supplementaries:sack",
+    "count": 1
+  }
+}
