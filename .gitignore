@@ -3,3 +3,14 @@
 /output
 /resourcepacks
 /build_dataset_structure.py
+/build_minecraft_llm_dataset.py
+/create.mixins.json
+/fabric.mod.json
+/farmersdelight.mixins.json
+/ftbquests-common.mixins.json
+/ftbquests.accesswidener
+/pack-Create.mcmeta
+/pack-SophisticatedBackpacks.mcmeta
+/sophisticatedbackpacks.mixins.json
+/supplementaries-common.mixins.json
+/supplementaries.accesswidener
